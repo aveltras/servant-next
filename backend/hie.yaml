@@ -1,0 +1,9 @@
+cradle:
+  cabal:
+    components:
+    - path: "./bin/GenerateOpenAPI.hs"
+      component: "exe:openapi"
+    - path: "./bin/RunServer.hs"
+      component: "exe:server"
+    - path: "./lib"
+      component: "lib:backend"

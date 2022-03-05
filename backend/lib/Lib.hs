@@ -1,15 +1,11 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE OverloadedStrings #-}
 
-module Main where
+module Lib where
 
 import Data.Text
-import Network.Wai.Handler.Warp
 import Servant
 import Servant.OpenApi
-
-main :: IO ()
-main = run 8080 app
 
 app :: Application
 app = serve api server

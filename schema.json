@@ -1,0 +1,27 @@
+Up to date
+{
+    "components": {},
+    "openapi": "3.0.0",
+    "paths": {
+        "/": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json;charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "info": {
+        "version": "",
+        "title": ""
+    }
+}
